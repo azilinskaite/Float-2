@@ -1,0 +1,82 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: #666;
+    background-color: #F5F5F5;
+}
+h1 {
+    font-size: 1,5em;
+    margin-bottom: 0;
+    text-align: left;
+    color: #0974b3;
+}
+.quote {
+    margin-top: 1em;
+    display: block;
+}
+img {
+    width: 160px;
+    object-fit: contain;
+    float: left;
+    display: flex;
+    clear: both;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    transition-duration: 0.4s
+}
+.overlay {
+    width: 160px;
+    object-fit: contain;
+    float: left;
+    display: flex;
+    clear: both;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    transition-duration: 0.4s
+}
+img:hover {
+    opacity: 50%;
+    
+}
+.column {
+    float: left;
+    background-color: #FFFFFF;
+    max-width: 280px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    transition-duration: 0.4s
+}
+.column:hover {
+    margin-top: -10px;
+}
+.button {
+    background-color: #0974b3;
+    color: white;
+    border: none;
+    border-radius: 20px 0 20px 0;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    transition-duration: 0.4s
+}
+.button:hover {
+    background-color: #054677;
+}
+
